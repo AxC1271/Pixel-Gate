@@ -1,1 +1,1 @@
-# AdversarialPongBot
+# Adversarial Pong Bot
