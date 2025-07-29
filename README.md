@@ -1,3 +1,3 @@
-# Adversarial Pong Bot
+# Snake Bot
 
 Currently not working on this project, will start in fall 2025.
