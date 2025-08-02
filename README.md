@@ -29,4 +29,18 @@ The Snake game is implemented in Python using **Pygame**. The AI agent interacts
 - Choosing an action based on its learned Q-values.
 - Receiving rewards and updating its policy.
 
+## Basic Theory
+
+Reinforcement learning (RL) is a subfield of machine learning focused on training software agents to make sequences of decisions by interacting with an environment. The primary objective of these agents is to learn a policy that maximizes cumulative reward over time. Unlike supervised learning, where the model learns from a dataset of labeled examples, reinforcement learning involves learning from the consequences of actions taken in an environment.
+<br />
+Key components of reinforcement learning include:
+
+- Agent: The learner or decision-maker that interacts with the environment.
+- Environment: The external system with which the agent interacts. It provides feedback in the form of rewards or penalties based on the agent's actions.
+- State: A representation of the current situation of the environment. The agent uses this information to decide on the next action.
+- Action: A decision made by the agent that affects the state of the environment.
+- Reward: A scalar value received by the agent after taking an action, indicating the immediate benefit of that action. The goal of the agent is to maximize the cumulative    reward over time.
+- Policy: A strategy or mapping from states to actions that the agent follows. The policy can be deterministic or stochastic.
+- Value Function: A function that estimates the expected cumulative reward from a given state or state-action pair, helping the agent evaluate the long-term benefit of        actions.
+-- Exploration vs. Exploitation: A trade-off the agent must manage between exploring new actions to discover their effects and exploiting known actions that yield high         rewards.
 
