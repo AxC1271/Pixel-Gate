@@ -44,3 +44,7 @@ Key components of reinforcement learning include:
 - Value Function: A function that estimates the expected cumulative reward from a given state or state-action pair, helping the agent evaluate the long-term benefit of        actions.
 -- Exploration vs. Exploitation: A trade-off the agent must manage between exploring new actions to discover their effects and exploiting known actions that yield high         rewards.
 
+---
+
+This README is just a summary of the project at a high level, please go into both the `Python` and `Verilog` submodules to read more in depth about the lower level implementation.
+
