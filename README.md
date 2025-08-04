@@ -42,6 +42,7 @@ Key components of image thresholding include:
 - VGA Display: The system that renders the binary image on a monitor.
 
 The end result is that the grayscale image gets converted into a binary image with each individual pixel being set to either black or white based on some specific threshold value. The primary goal of thresholding is to simplify the image, making it easier to identify and analyze regions of interest.
+
 ---
 
 This README is just a summary of the project at a high level, please go into both the `Python` and `SystemVerilog` submodules to read more in depth about the lower level implementation.
