@@ -1,4 +1,4 @@
-# 🖼️ PixelGate
+# 🖼️ Pixel Gate
 
 Welcome to my PixelGate project! This project explores how a single-layer perceptron can be used to perform image thresholding and display the results on a VGA monitor, with the end goal of implementing both a software-based simulation and a hardware-based FPGA implementation.
 
