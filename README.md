@@ -30,6 +30,8 @@ The image processing is implemented in SystemVerilog, with the perceptron logic 
 
 ## Basic Theory
 
+Single layer perceptrons are one of the simplest form of artificial neural networks; they are a type of linear classifiers used for supervised learning and can decide whether an input, represented by some arbitary vector, belongs to a specific class. The perceptron consists of a bunch of nodes, which each node has their own associated weight that determines the overall significance of the input. The sum of these node's outputs are then passed to an activation function, which is traditionally a Heaviside step function to produce a binary output.
+
 Image thresholding is a technique used to convert grayscale images into binary images by classifying pixels based on intensity. The primary objective is to separate foreground from background, enhancing features for further analysis or display. Unlike complex neural networks, a single-layer perceptron uses a simple linear function to make binary decisions.
 Key components of image thresholding include:
 - Perceptron: The decision-maker that processes pixel intensity values.
@@ -40,5 +42,5 @@ Key components of image thresholding include:
 - VGA Display: The system that renders the binary image on a monitor.
 ---
 
-This README is just a summary of the project at a high level, please go into both the `Python` and `Verilog` submodules to read more in depth about the lower level implementation.
+This README is just a summary of the project at a high level, please go into both the `Python` and `SystemVerilog` submodules to read more in depth about the lower level implementation.
 
