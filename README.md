@@ -38,10 +38,6 @@ Key components of image thresholding include:
 - Weighted Sum: Calculation of the weighted sum of pixel intensity and bias.
 - Activation Function: A step function that determines the binary output based on the weighted sum.
 - VGA Display: The system that renders the binary image on a monitor.
-
----
-This README is just a summary of the project at a high level. Please go into both the Python and Verilog submodules to read more in depth about the lower-level implementation.
-
 ---
 
 This README is just a summary of the project at a high level, please go into both the `Python` and `Verilog` submodules to read more in depth about the lower level implementation.
