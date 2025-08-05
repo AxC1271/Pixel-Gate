@@ -5,7 +5,7 @@
 ## Theory and Implementation
 
 ```SystemVerilog
--- this is the vga driver for the image processor
+
 module vga_controller (
   input logic clk,
   input logic rst,
