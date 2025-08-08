@@ -17,7 +17,7 @@ This project uses a Single-Layer Perceptron:
 - Thresholding structure:
   - Weighted sum calculation
   - Step function activation
-  - Fixed-point arithmetic for efficient hardware implementation
+  - Fixed-point arithmetic for hardware implementation
 
 The training and simulation are done in Python to determine optimal weights and bias. The hardware implementation is done in SystemVerilog.
 
